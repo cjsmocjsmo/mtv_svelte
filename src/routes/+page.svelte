@@ -19,36 +19,36 @@
 			</svg></a>
 		</div>	
 		<div class="movlist">
-			<a href="action"><p class="mov">Action</p></a>
-			<a href="arnold"><p class="mov">Arnold</p></a>
-			<a href="brucewillis"><p class="mov">Bruce Willis</p></a>
-			<a href="cartoons"><p class="mov">Cartoons</p></a>
-			<a href="comedy"><p class="mov">Comedy</p></a>
-			<a href="drama"><p class="mov">Drama</p></a>
-			<a href="documentary"><p class="mov">Documentary</p></a>
-			<a href="fantasy"><p class="mov">Fantasy</p></a>
-			<a href="godzilla"><p class="mov">Godzilla</p></a>
-			<a href="harrypotter"><p class="mov">Harry Potter</p></a>
-			<a href="indianajones"><p class="mov">Indiana Jones</p></a>
-			<a href="jamesbond"><p class="mov">James Bond</p></a>
-			<a href="johnwayne"><p class="mov">John Wayne</p></a>
-			<a href="johnwick"><p class="mov">John Wick</p></a>
-			<a href="jurrasicpark"><p class="mov">Jurrasic Park</p></a>
-			<a href="kingmen"><p class="mov">Kings Men</p></a>
-			<a href="meninblack"><p class="mov">Men In Black</p></a>
-			<a href="misc"><p class="mov">Misc</p></a>
-			<a href="nicolascage"><p class="mov">Nicolas Cage</p></a>
-			<a href="pirates"><p class="mov">Pirates</p></a>
-			<a href="riddick"><p class="mov">Riddick</p></a>
-			<a href="startrek"><p class="mov">Star Trek</p></a>
-			<a href="starwars"><p class="mov">Star Wars</p></a>
-			<a href="superheroes"><p class="mov">Super Heroes</p></a>
-			<a href="scifi"><p class="mov">SciFi</p></a>
-			<a href="tomcruize"><p class="mov">Tom Cruize</p></a>
-			<a href="transformers"><p class="mov">Transformers</p></a>
-			<a href="tremors"><p class="mov">Tremors</p></a>
-			<a href="therock"><p class="mov">The Rock</p></a>
-			<a href="xmen"><p class="mov">XMen</p></a>
+			<a data-sveltekit-preload-data="tap" href="action"><p class="mov">Action</p></a>
+			<a data-sveltekit-preload-data="tap" href="arnold"><p class="mov">Arnold</p></a>
+			<a data-sveltekit-preload-data="tap" href="brucewillis"><p class="mov">Bruce Willis</p></a>
+			<a data-sveltekit-preload-data="tap" href="cartoons"><p class="mov">Cartoons</p></a>
+			<a data-sveltekit-preload-data="tap" href="comedy"><p class="mov">Comedy</p></a>
+			<a data-sveltekit-preload-data="tap" href="drama"><p class="mov">Drama</p></a>
+			<a data-sveltekit-preload-data="tap" href="documentary"><p class="mov">Documentary</p></a>
+			<a data-sveltekit-preload-data="tap" href="fantasy"><p class="mov">Fantasy</p></a>
+			<a data-sveltekit-preload-data="tap" href="godzilla"><p class="mov">Godzilla</p></a>
+			<a data-sveltekit-preload-data="tap" href="harrypotter"><p class="mov">Harry Potter</p></a>
+			<a data-sveltekit-preload-data="tap" href="indianajones"><p class="mov">Indiana Jones</p></a>
+			<a data-sveltekit-preload-data="tap" href="jamesbond"><p class="mov">James Bond</p></a>
+			<a data-sveltekit-preload-data="tap" href="johnwayne"><p class="mov">John Wayne</p></a>
+			<a data-sveltekit-preload-data="tap" href="johnwick"><p class="mov">John Wick</p></a>
+			<a data-sveltekit-preload-data="tap" href="jurrasicpark"><p class="mov">Jurrasic Park</p></a>
+			<a data-sveltekit-preload-data="tap" href="kingmen"><p class="mov">Kings Men</p></a>
+			<a data-sveltekit-preload-data="tap" href="meninblack"><p class="mov">Men In Black</p></a>
+			<a data-sveltekit-preload-data="tap" href="misc"><p class="mov">Misc</p></a>
+			<a data-sveltekit-preload-data="tap" href="nicolascage"><p class="mov">Nicolas Cage</p></a>
+			<a data-sveltekit-preload-data="tap" href="pirates"><p class="mov">Pirates</p></a>
+			<a data-sveltekit-preload-data="tap" href="riddick"><p class="mov">Riddick</p></a>
+			<a data-sveltekit-preload-data="tap" href="startrek"><p class="mov">Star Trek</p></a>
+			<a data-sveltekit-preload-data="tap" href="starwars"><p class="mov">Star Wars</p></a>
+			<a data-sveltekit-preload-data="tap" href="superheroes"><p class="mov">Super Heroes</p></a>
+			<a data-sveltekit-preload-data="tap" href="scifi"><p class="mov">SciFi</p></a>
+			<a data-sveltekit-preload-data="tap" href="tomcruize"><p class="mov">Tom Cruize</p></a>
+			<a data-sveltekit-preload-data="tap" href="transformers"><p class="mov">Transformers</p></a>
+			<a data-sveltekit-preload-data="tap" href="tremors"><p class="mov">Tremors</p></a>
+			<a data-sveltekit-preload-data="tap" href="therock"><p class="mov">The Rock</p></a>
+			<a data-sveltekit-preload-data="tap" href="xmen"><p class="mov">XMen</p></a>
 		</div>
 	</div>
 </main>

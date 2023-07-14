@@ -15,7 +15,7 @@
 		</a>
 	</div>
 	<div class="movlist">
-		<p class="mov"></p>
+		<p ></p>
 		<a href="/tvcomedy"><p class="mov">comedy</p></a>
 		<p class="mov"></p>
 		<a href="/tvfantasy"><p class="mov">Fantasy</p></a>
@@ -26,7 +26,7 @@
 		<a href="/tvmcu"><p class="mov">MCU</p></a>
 		<p class="mov"></p>
 		<a href="/tvwestern"><p class="mov">Western</p></a>
-		<p class="mov"></p>
+		<p ></p>
 	</div>
 </main>
 
@@ -60,5 +60,8 @@
 		font-size: 1.75em;
 		justify-self: center;
 		align-self: center;
+	}
+	h1 {
+		color:yellow;
 	}
 </style>
