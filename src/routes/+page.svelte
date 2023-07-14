@@ -34,7 +34,7 @@
 			<a data-sveltekit-preload-data="tap" href="johnwayne"><p class="mov">John Wayne</p></a>
 			<a data-sveltekit-preload-data="tap" href="johnwick"><p class="mov">John Wick</p></a>
 			<a data-sveltekit-preload-data="tap" href="jurrasicpark"><p class="mov">Jurrasic Park</p></a>
-			<a data-sveltekit-preload-data="tap" href="kingmen"><p class="mov">Kings Men</p></a>
+			<a data-sveltekit-preload-data="tap" href="kingsman"><p class="mov">KingsMan</p></a>
 			<a data-sveltekit-preload-data="tap" href="meninblack"><p class="mov">Men In Black</p></a>
 			<a data-sveltekit-preload-data="tap" href="misc"><p class="mov">Misc</p></a>
 			<a data-sveltekit-preload-data="tap" href="nicolascage"><p class="mov">Nicolas Cage</p></a>
