@@ -1,3 +1,7 @@
+<script>
+	import PlayerControls from '../../components/PlayerControls.svelte';
+</script>
+
 <svelte:head>
 	<title>About</title>
 	<meta name="description" content="About this app" />
@@ -16,7 +20,7 @@
 	</div>
 	<div class="movlist">
 		<p ></p>
-		<a href="/tvcomedy"><p class="mov">comedy</p></a>
+		<a href="/tvcomedy"><p class="mov">Comedy</p></a>
 		<p class="mov"></p>
 		<a href="/tvfantasy"><p class="mov">Fantasy</p></a>
 		<a href="/tvstartrek"><p class="mov">Star Trek</p></a>
@@ -26,8 +30,9 @@
 		<a href="/tvmcu"><p class="mov">MCU</p></a>
 		<p class="mov"></p>
 		<a href="/tvwestern"><p class="mov">Western</p></a>
-		<p ></p>
+		
 	</div>
+	<PlayerControls />
 </main>
 
 <style>
@@ -42,7 +47,7 @@
 		display: block;
 		width: 3em;
 		height: 4em;
-		fill: yellowgreen;
+		fill: brown;
 	}
 	.movicon {
 		display: flex;
@@ -52,7 +57,7 @@
 	.movlist {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(10, 1fr);
+		grid-template-rows: repeat(5, 1fr);
 		column-gap: 4em;
 		row-gap: .25em;
 	}
@@ -62,6 +67,6 @@
 		align-self: center;
 	}
 	h1 {
-		color:yellow;
+		color:yellowgreen;
 	}
 </style>

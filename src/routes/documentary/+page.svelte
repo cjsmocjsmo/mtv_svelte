@@ -1,39 +1,21 @@
 <script>
+	import BackArrow from '../../components/BackArrow.svelte';
+	import MovList from '../../components/MovList.svelte';
 	export let data;
-	console.log(data.movlist);
 </script>
 
 <main>
-	<div class="movlist">
-		{#each data.movlist as mov}
-			<div class="movlist">
-				<a data-sveltekit-preload-data="tap" href="/documentary/{mov.movid}">
-					<img src={mov.httpthumbpath} alt={mov.name} />
-				</a>
-				
-			</div>
-		{/each}
-	</div>
+	<BackArrow path="/" />
+	<h1>Documentary</h1>
+	<MovList {data} />
 </main>
 
 <style>
-    main {
+	main {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
-	}
-	.movlist {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		
-	}
-	img{
-		margin: 1em;
-		border-radius: 7px;
 	}
 </style>

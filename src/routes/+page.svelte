@@ -1,6 +1,5 @@
 <script>
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import PlayerControls from '../components/PlayerControls.svelte';
 </script>
 
 <svelte:head>
@@ -18,6 +17,7 @@
 				/>
 			</svg></a>
 		</div>	
+		<PlayerControls />
 		<div class="movlist">
 			<a data-sveltekit-preload-data="tap" href="action"><p class="mov">Action</p></a>
 			<a data-sveltekit-preload-data="tap" href="arnold"><p class="mov">Arnold</p></a>
@@ -51,6 +51,7 @@
 			<a data-sveltekit-preload-data="tap" href="xmen"><p class="mov">XMen</p></a>
 		</div>
 	</div>
+	<PlayerControls />
 </main>
 
 <style>
@@ -66,7 +67,7 @@
 		display: block;
 		width: 3em;
 		height: 4em;
-		fill: yellowgreen;
+		fill: brown;
 	}
 
 	.movlist {
@@ -92,7 +93,7 @@
 
 
 	h1 {
-		color:yellow;
+		color:yellowgreen;
 	}
 
 	/* .welcome {
