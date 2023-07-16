@@ -26,6 +26,7 @@
 
 <div>
 	<BackArrow path="/tvshows" />
+	<h1>Sci-Fi</h1>
 	<div class="foo">
 		<div class="bar">
 			<TvSiloCard src={SiloImg} />
@@ -48,6 +49,9 @@
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		grid-gap: 1rem;
+	}
+	h1 {
+		color: yellowgreen
 	}
 
 	@media (min-width: 500px) {
