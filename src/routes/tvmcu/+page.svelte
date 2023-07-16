@@ -20,7 +20,6 @@
 
 <div>
 	<BackArrow path="/tvshows" />
-
 	<div class="foo">
 		<div class="bar">
 			<TvFalconWinterSoldierCard src={FalconWinterSoldier} />

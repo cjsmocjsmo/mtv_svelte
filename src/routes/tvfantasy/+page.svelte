@@ -1,8 +1,11 @@
 <script>
     import BackArrow from '../../components/BackArrow.svelte';
+	import TvHouseOfTheDragonCard from '../../components/TVHouseOfTheDragonCard.svelte';
+	import HouseOfTheDragon from '$lib/images/fantasy/houseofthedragon.avif';
 	import TvShowsCard from '../../components/TVShowsCard.svelte';
-    import HouseOfTheDragon from '$lib/images/fantasy/houseofthedragon.avif';
+   
     import RingsOfPower from '$lib/images/fantasy/thelordoftheringsringsofpower.avif';
+	
     import WheelOfTime from '$lib/images/fantasy/wheeloftime.avif';
 
 </script>
@@ -11,7 +14,7 @@
 	<BackArrow path="/tvshows" />
 	<div class="foo">
 		<div class="bar">
-			<TvShowsCard src={HouseOfTheDragon} />
+			<TvHouseOfTheDragonCard src={HouseOfTheDragon} />
             <TvShowsCard src={RingsOfPower} />
             <TvShowsCard src={WheelOfTime} />
 		</div>

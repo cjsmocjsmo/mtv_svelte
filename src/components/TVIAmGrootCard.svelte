@@ -4,7 +4,7 @@
 
 <div class="baz2">
 	<div class="link-card">
-		<a href="/tvIAmGrootSeasons"><img {src} alt="" /></a>
+		<a href="/tvSeasonsIAmGroot"><img {src} alt="" /></a>
 	</div>
 </div>
 
