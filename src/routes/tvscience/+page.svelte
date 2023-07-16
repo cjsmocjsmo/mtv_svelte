@@ -1,41 +1,42 @@
 <script>
-	import TvShowsCard from '../../components/TVShowsCard.svelte';
+	import BackArrow from '../../components/BackArrow.svelte';
+	import TvAlienWorldsCard from '../../components/TVAlienWorldsCard.svelte';
 	import AlienWorldsImg from '$lib/images/scifi/alienworlds.avif';
-    import PrehistoricImg from '$lib/images/prehistoricplanet.avif';
-    
+	import TvPreHistoricPlanetCard from '../../components/TVPreHistoricPlanetCard.svelte';
+	import PrehistoricImg from '$lib/images/prehistoricplanet.avif';
 </script>
 
-<main>
+<div>
+	<BackArrow path="/tvshows" />
 	<div class="foo">
-		<ul>
-			<TvShowsCard 
-                number_of_seasons="1"
-                src={AlienWorldsImg} 
-                title="Alien Worlds" 
-            />
-            <TvShowsCard 
-                number_of_seasons="7"
-                src={PrehistoricImg}
-                title="Prehistoric Worlds" 
-            />
-		</ul>
+		<div class="bar">
+			<TvAlienWorldsCard src={AlienWorldsImg} />
+			<TvPreHistoricPlanetCard src={PrehistoricImg} />
+		</div>
 	</div>
-</main>
+</div>
 
 <style>
-	main {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
+	.bar {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 1rem;
+		margin-left: 2em;
 	}
-	ul {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-		padding: 0;
-		margin: 0;
+
+	@media (min-width: 500px) {
+		.bar {
+			grid-template-columns: repeat(2, 1fr);
+		}
 	}
+	/* @media (min-width: 700px) {
+		.bar {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+	@media (min-width: 900px) {
+		.bar {
+			grid-template-columns: repeat(4, 1fr);
+		}
+	} */
 </style>

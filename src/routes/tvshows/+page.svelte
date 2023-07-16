@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
+	<title>TVShows</title>
+	<meta name="description" content="TVShows" />
 </svelte:head>
 
 <main>
