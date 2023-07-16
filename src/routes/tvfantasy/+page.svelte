@@ -1,13 +1,11 @@
 <script>
-    import BackArrow from '../../components/BackArrow.svelte';
+	import BackArrow from '../../components/BackArrow.svelte';
 	import TvHouseOfTheDragonCard from '../../components/TVHouseOfTheDragonCard.svelte';
 	import HouseOfTheDragon from '$lib/images/fantasy/houseofthedragon.avif';
-	import TvShowsCard from '../../components/TVShowsCard.svelte';
-   
-    import RingsOfPower from '$lib/images/fantasy/thelordoftheringsringsofpower.avif';
-	
-    import WheelOfTime from '$lib/images/fantasy/wheeloftime.avif';
-
+	import RingsOfPowerCard from '../../components/TVRingsOfPowerCard.svelte';
+	import RingsOfPower from '$lib/images/fantasy/thelordoftheringsringsofpower.avif';
+	import TvWheelOfTimeCard from '../../components/TVWheelOfTimeCard.svelte';
+	import WheelOfTime from '$lib/images/fantasy/wheeloftime.avif';
 </script>
 
 <div>
@@ -15,8 +13,8 @@
 	<div class="foo">
 		<div class="bar">
 			<TvHouseOfTheDragonCard src={HouseOfTheDragon} />
-            <TvShowsCard src={RingsOfPower} />
-            <TvShowsCard src={WheelOfTime} />
+			<RingsOfPowerCard src={RingsOfPower} />
+			<TvWheelOfTimeCard src={WheelOfTime} />
 		</div>
 	</div>
 </div>
@@ -28,7 +26,6 @@
 		grid-gap: 1rem;
 	}
 
-	
 	@media (min-width: 500px) {
 		.bar {
 			grid-template-columns: repeat(2, 1fr);
@@ -44,5 +41,4 @@
 			grid-template-columns: repeat(3, 1fr);
 		}
 	}
-
 </style>
