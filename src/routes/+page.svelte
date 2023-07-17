@@ -21,8 +21,10 @@
 		<div class="movlist">
 			<a data-sveltekit-preload-data="tap" href="action"><p class="mov">Action</p></a>
 			<a data-sveltekit-preload-data="tap" href="arnold"><p class="mov">Arnold</p></a>
+			<a data-sveltekit-preload-data="tap" href="brucelee"><p class="mov">Bruce Lee</p></a>
 			<a data-sveltekit-preload-data="tap" href="brucewillis"><p class="mov">Bruce Willis</p></a>
 			<a data-sveltekit-preload-data="tap" href="cartoons"><p class="mov">Cartoons</p></a>
+			<a data-sveltekit-preload-data="tap" href="chucknorris"><p class="mov">Chuck Norris</p></a>
 			<a data-sveltekit-preload-data="tap" href="comedy"><p class="mov">Comedy</p></a>
 			<a data-sveltekit-preload-data="tap" href="drama"><p class="mov">Drama</p></a>
 			<a data-sveltekit-preload-data="tap" href="documentary"><p class="mov">Documentary</p></a>

@@ -29,7 +29,7 @@
 		<a href="/tvscience"><p class="mov">Science</p></a>
 		<a href="/tvmcu"><p class="mov">MCU</p></a>
 		<p class="mov"></p>
-		<a href="/tvwestern"><p class="mov">Western</p></a>
+		<a href="/tvwesterns"><p class="mov">Western</p></a>
 		
 	</div>
 	<PlayerControls />
