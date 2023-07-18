@@ -1,32 +1,26 @@
 <script>
-    export let data;
-
-    function playmovie(path) {
-        const ad = "http://192.168.0.94:8181/OmxplayerPlayMediaReact?medPath=";
-        let ad2 = ad + path;
-        let resp = fetch(ad2);
-	}
+	export let data;
+	import MovPlayButton from './MOVPlayButton.svelte';
 </script>
 
-
 <div class="movlist">
-    {#each data.movlist as mov}
-        <div class="movlist">
-            <img onclick={playmovie(mov.path)} src={mov.httpthumbpath} alt={mov.name} />
-        </div>
-    {/each}
+	{#each data.movlist as mov}
+		<div class="movlist">
+			<MovPlayButton path={mov.path} src={mov.httpthumbpath} alt={mov.name} />
+		</div>
+	{/each}
 </div>
 
 <style>
-    .movlist {
+	.movlist {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 	}
-	img {
+	/* img {
 		margin: 1em;
 		border-radius: 7px;
-	}
+	} */
 </style>
