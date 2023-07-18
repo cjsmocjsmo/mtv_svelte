@@ -3,6 +3,15 @@
 	import BackArrow from '../../components/BackArrow.svelte';
     import PlayerControls from '../../components/PlayerControls.svelte';
 	export let data;
+
+    let zoo = data[0];
+    let zoo1 = data[1];
+
+    function playmovie(path) {
+		const ad = 'http://192.168.0.94:8181/OmxplayerPlayMediaReact?medPath=';
+		let ad2 = ad + path;
+		let resp = fetch(ad2);
+	}
 </script>
 
 
@@ -11,44 +20,20 @@
     <div>
         <h1>Bad Batch</h1>
     </div>
-    
     <div>
         <h1>Season 1</h1>
-        <!-- <div>
-            {#each data as d}
-                <button>{d.episode}</button>
-            {/each}
-        </div> -->
-    </div>
-    <PlayerControls />
-    <div>
-        <h1>Season 2</h1>
         <div>
-            <button>Episode01</button>
-            <button>Episode02</button>   
-            <button>Episode03</button>
-            <button>Episode04</button>
-            <button>Episode05</button>
-            <button>Episode06</button>
-            <button>Episode07</button>
-            <button>Episode08</button>
-            <button>Episode09</button>
-            <button>Episode10</button>
+            {#each zoo as d}
+                <button onclick={playmovie(d.path)}>{d.episode}</button>
+            {/each}
         </div>
     </div>
     <div>
-        <h1>Season 3</h1>
-        <div class="s3">
-            <p>Episode01</p>
-            <p>Episode02</p>   
-            <p>Episode03</p>
-            <p>Episode04</p>
-            <p>Episode05</p>
-            <p>Episode06</p>
-            <p>Episode07</p>
-            <p>Episode08</p>
-            <p>Episode09</p>
-            <p>Episode10</p>
+        <h1>Season 2</h1>
+        <div>
+            {#each zoo1 as d2}
+                <button onclick={playmovie(d2.path)}>{d2.episode}</button>
+            {/each}
         </div>
     </div>
     <PlayerControls />
@@ -77,7 +62,7 @@
         font-size: 20px;
         margin: 4px 2px;
     }
-    .s3 {
+    /* .s3 {
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -87,5 +72,5 @@
     p {
         margin: 1em;
         font-size: 20px;
-    }
+    } */
 </style>

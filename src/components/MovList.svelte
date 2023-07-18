@@ -2,7 +2,7 @@
     export let data;
 
     function playmovie(path) {
-        let ad = "http://192.168.0.94:8181/OmxplayerPlayMediaReact?medPath=";
+        const ad = "http://192.168.0.94:8181/OmxplayerPlayMediaReact?medPath=";
         let ad2 = ad + path;
         let resp = fetch(ad2);
 	}
@@ -12,7 +12,7 @@
 <div class="movlist">
     {#each data.movlist as mov}
         <div class="movlist">
-            <img onclick={() => playmovie(mov.path)} src={mov.httpthumbpath} alt={mov.name} />
+            <img onclick={playmovie(mov.path)} src={mov.httpthumbpath} alt={mov.name} />
         </div>
     {/each}
 </div>

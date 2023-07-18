@@ -3,9 +3,6 @@
 	import PlayerControls from '../../components/PlayerControls.svelte';
 	export let data;
 
-	const ddata = data[0];
-	const ddata2 = data[1];
-
 	function playmovie(path) {
 		const ad = 'http://192.168.0.94:8181/OmxplayerPlayMediaReact?medPath=';
 		let ad2 = ad + path;
@@ -16,22 +13,13 @@
 <main>
 	<BackArrow path="/tvshows" />
 	<div>
-		<h1>Foundation</h1>
+		<h1>House Of The Dragon</h1>
 	</div>
-
 	<div>
 		<h1>Season 1</h1>
 		<div>
-			{#each ddata as d}
+			{#each data as d}
 				<button onclick={playmovie(d.path)}>{d.episode}</button>
-			{/each}
-		</div>
-	</div>
-	<div>
-		<h1>Season 2</h1>
-		<div>
-			{#each ddata2 as d2}
-				<button onclick={playmovie(d2.path)}>{d2.episode}</button>
 			{/each}
 		</div>
 	</div>
@@ -61,14 +49,14 @@
 		margin: 4px 2px;
 	}
 	/* .s3 {
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    p {
-        margin: 1em;
-        font-size: 20px;
-    } */
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	p {
+		margin: 1em;
+		font-size: 20px;
+	} */
 </style>
