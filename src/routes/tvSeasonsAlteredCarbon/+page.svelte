@@ -1,6 +1,6 @@
 <script>
 	import BackArrow from '../../components/BackArrow.svelte';
-	import SeasonButton from '../../components/SeasonButton.svelte';
+	import SeasonButton from '../../components/TVSeasonPlayButton.svelte';
 	import PlayerControls from '../../components/PlayerControls.svelte';
 	export let data;
 	let s1 = data[0];
