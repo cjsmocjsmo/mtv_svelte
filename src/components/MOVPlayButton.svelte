@@ -1,16 +1,20 @@
 <script>
+	export const prerender = false;
 	export let path;
 	export let src;
 	export let alt;
 
-	function playmovie() {
+	let playmovie = () => {
 		const ad = 'http://192.168.0.94:8181/OmxplayerPlayMediaReact?medPath=';
 		let ad2 = ad + path;
+		console.log(ad2);
 		let resp = fetch(ad2);
-	}
+	};
 </script>
 
-<img onclick={playmovie} {src} {alt} />
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+<img on:click={playmovie} src={src} alt={alt} />
 
 <style>
 	img {

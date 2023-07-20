@@ -1,6 +1,8 @@
 <script>
 	export let data;
 	import MovPlayButton from './MOVPlayButton.svelte';
+	console.log("movlist");
+	console.log(data.movlist);
 </script>
 
 <div class="movlist">
@@ -19,8 +21,4 @@
 		justify-content: center;
 		align-items: center;
 	}
-	/* img {
-		margin: 1em;
-		border-radius: 7px;
-	} */
 </style>

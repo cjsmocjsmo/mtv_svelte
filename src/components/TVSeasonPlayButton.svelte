@@ -1,14 +1,18 @@
 <script>
+	export const prerender = false;
 	export let info;
-	function playmovie() {
+	let playmovie = () => {
 		const ad = 'http://192.168.0.94:8181/OmxplayerPlayMediaReact?medPath=';
 		let ad2 = ad + info.path;
+		console.log(ad2);
 		let resp = fetch(ad2);
 	}
+	// console.log("TVSeasonPlayButton");
+	// console.log(info);
 </script>
 
 <div>
-	<button onclick={playmovie}>{info.episode}</button>
+	<button on:click={playmovie}>{info.episode}</button>
 </div>
 
 <style>

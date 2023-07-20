@@ -26,7 +26,9 @@
 
 
 <div class='controls'>
-    <div class='controlBtn' onclick={() => next}>
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
+    <div class='controlBtn' on:click={next} />
             <svg
                 xmlns='http://www.w3.org/2000/svg' 
                 viewBox='0 0 320 512'>
@@ -34,7 +36,9 @@
             </svg>
     </div>
 
-    <div class='controlBtn' onclick={() => stop} >
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
+    <div class='controlBtn' on:click={stop} >
             <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 320 512">
@@ -42,14 +46,16 @@
             </svg>
     </div>
     
-    <div class='controlBtn' onclick={() => prev} >
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
+    <div class='controlBtn' on:click={prev} >
             <svg 
                 xmlns='http://www.w3.org/2000/svg' 
                 viewBox='0 0 320 512'>
                 <path d='M52.5 440.6c-9.5 7.9-22.8 9.7-34.1 4.4S0 428.4 0 416V96C0 83.6 7.2 72.3 18.4 67s24.5-3.6 34.1 4.4l192 160L256 241V96c0-17.7 14.3-32 32-32s32 14.3 32 32V416c0 17.7-14.3 32-32 32s-32-14.3-32-32V271l-11.5 9.6-192 160z'/>
             </svg>
     </div>
-</div>
+
 
 <style>
     .controls {
