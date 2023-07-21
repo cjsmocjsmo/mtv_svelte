@@ -3,8 +3,11 @@
 	import PlayerControls from '../../components/PlayerControls.svelte';
 	import SeasonButton from '../../components/TVSeasonPlayButton.svelte';
 	export let data;
-	const ddata = data[0];
-	const ddata2 = data[1];
+	console.log(data);
+	const ddata = data.foundation[0];
+	const ddata2 = data.foundation[1];
+	console.log(ddata);
+	console.log(ddata2);
 </script>
 
 <main>
@@ -14,7 +17,7 @@
 	</div>
 	<div>
 		<h1>Season 1</h1>
-		<div>
+		<div class="seaList">
 			{#each ddata as d}
 				<SeasonButton info={d} />
 			{/each}
@@ -22,7 +25,7 @@
 	</div>
 	<div>
 		<h1>Season 2</h1>
-		<div>
+		<div class="seaList">
 			{#each ddata2 as d2}
 				<SeasonButton info={d2} />
 			{/each}
@@ -38,5 +41,11 @@
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
+	}
+	.seaList {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
 	}
 </style>

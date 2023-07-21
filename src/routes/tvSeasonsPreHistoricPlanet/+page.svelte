@@ -14,17 +14,17 @@
 	</div>
 	<div>
 		<h1>Season 1</h1>
-		<div>
-			{#each data as d}
+		<div class="seaList">
+			{#each ddata.season1 as d}
 				<SeasonButton info={d} />
 			{/each}
 		</div>
 	</div>
 	<div>
 		<h1>Season 2</h1>
-		<div>
-			{#each data as d}
-				<SeasonButton info={d} />
+		<div class="seaList">
+			{#each ddata2.season2 as d1}
+				<SeasonButton info={d1} />
 			{/each}
 		</div>
 	</div>
@@ -38,5 +38,11 @@
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
+	}
+	.seaList {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
 	}
 </style>

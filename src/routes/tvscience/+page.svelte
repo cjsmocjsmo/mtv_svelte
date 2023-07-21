@@ -1,7 +1,5 @@
 <script>
 	import BackArrow from '../../components/BackArrow.svelte';
-	import TvAlienWorldsCard from '../../components/TVAlienWorldsCard.svelte';
-	import AlienWorldsImg from '$lib/images/scifi/alienworlds.avif';
 	import TvPreHistoricPlanetCard from '../../components/TVPreHistoricPlanetCard.svelte';
 	import PrehistoricImg from '$lib/images/prehistoricplanet.avif';
 </script>
@@ -10,7 +8,6 @@
 	<BackArrow path="/tvshows" />
 	<div class="foo">
 		<div class="bar">
-			<TvAlienWorldsCard src={AlienWorldsImg} />
 			<TvPreHistoricPlanetCard src={PrehistoricImg} />
 		</div>
 	</div>
