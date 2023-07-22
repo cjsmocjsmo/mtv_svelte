@@ -39,4 +39,11 @@
 		align-items: center;
 		flex: 0.6;
 	}
+	.seaList {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
 </style>

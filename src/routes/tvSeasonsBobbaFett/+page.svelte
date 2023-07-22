@@ -12,9 +12,11 @@
 	</div>
 	<div>
 		<h1>Season 1</h1>
-		{#each data as d}
-			<SeasonButton info={d} />
-		{/each}
+		<div class="seaList">
+			{#each data.boba as d}
+				<SeasonButton info={d} />
+			{/each}
+		</div>
 	</div>
 	<PlayerControls />
 </main>
@@ -26,5 +28,12 @@
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
+	}
+	.seaList {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
 	}
 </style>

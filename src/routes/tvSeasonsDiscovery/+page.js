@@ -12,7 +12,7 @@ export async function load({ fetch }) {
     const res4 = await fetch('http://192.168.0.94:8080/startrek/discovery/04');
     const season4 = await res4.json();
 
-    let boo = (season1, season2, season3, season4)
+    let discovery = [season1, season2, season3, season4]
 
-return { boo }
+return { discovery }
 }

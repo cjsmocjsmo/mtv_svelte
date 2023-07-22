@@ -6,8 +6,8 @@ export async function load({ fetch }) {
     const res2 = await fetch('http://192.168.0.94:8080/scifi/alteredcarbon/02');
     const season2 = await res2.json();
 
-    let zoo = (season1, season2)
+    let alteredcarbon = [season1, season2]
 
-return { zoo }
+return { alteredcarbon }
 
 }

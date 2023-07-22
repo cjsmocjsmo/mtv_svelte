@@ -9,7 +9,7 @@ export async function load({ fetch }) {
     const res3 = await fetch('http://192.168.0.94:8080/scifi/forallmankind/03');
     const season3 = await res3.json();
 
-    let star = (season1, season2, season3)
+    let forallmankind = [season1, season2, season3]
 
-return { star }
+return { forallmankind }
 }
