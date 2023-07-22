@@ -1,7 +1,9 @@
+import { PUBLIC_MTV_BACKEND } from '$env/static/public'
 export async function load({ fetch }) {
-    
-        const res = await fetch('http://192.168.0.94:8080/meninblack');
-        const movlist = await res.json();
-   
+
+    const addr = PUBLIC_MTV_BACKEND + 'meninblack';
+    const res = await fetch(addr);
+    const movlist = await res.json();
+
     return { movlist }
 }
