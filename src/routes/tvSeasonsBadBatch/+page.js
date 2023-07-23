@@ -1,12 +1,16 @@
+import { PUBLIC_MTV_BACKEND } from '$env/static/public'
 export async function load({ fetch }) {
+
+    let addr = PUBLIC_MTV_BACKEND + '/starwars/badbatch/01'
+    let addr2 = PUBLIC_MTV_BACKEND + '/starwars/badbatch/02'
     
-    const res = await fetch('http://192.168.0.94:8080/starwars/badbatch/01');
+    const res = await fetch(addr);
     const season1 = await res.json();
 
-    const res2 = await fetch('http://192.168.0.94:8080/starwars/badbatch/02');
+    const res2 = await fetch(addr2);
     const season2 = await res2.json();
 
-    let foobar = { season1, season2 }
+    let badbatch = [season1, season2]
 
-return { foobar }
+return { badbatch }
 }

@@ -1,6 +1,8 @@
+import { PUBLIC_MTV_BACKEND } from '$env/static/public'
 export async function load({ fetch }) {
-    
-    const res = await fetch('http://192.168.0.94:8080/scifi/halo/01');
+
+    let addr = PUBLIC_MTV_BACKEND + '/scifi/halo/01'
+    const res = await fetch(addr);
     const halo = await res.json();
 
 return { halo }

@@ -3,8 +3,8 @@
 	import PlayerControls from '../../components/PlayerControls.svelte';
 	import SeasonButton from '../../components/TVSeasonPlayButton.svelte';
 	export let data;
-	let zoo = data[0];
-	let zoo1 = data[1];
+	let zoo = data.badbatch[0];
+	let zoo1 = data.badbatch[1];
 </script>
 
 <main>
@@ -14,7 +14,7 @@
 	</div>
 	<div>
 		<h1>Season 1</h1>
-		<div>
+		<div class="seaList">
 			{#each zoo as d}
 				<SeasonButton info={d} />
 			{/each}
@@ -22,7 +22,7 @@
 	</div>
 	<div>
 		<h1>Season 2</h1>
-		<div>
+		<div class="seaList">
 			{#each zoo1 as d2}
 				<SeasonButton info={d2} />
 			{/each}

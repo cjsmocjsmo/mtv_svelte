@@ -6,8 +6,6 @@
 	console.log(data);
 	const ddata = data.foundation[0];
 	const ddata2 = data.foundation[1];
-	console.log(ddata);
-	console.log(ddata2);
 </script>
 
 <main>

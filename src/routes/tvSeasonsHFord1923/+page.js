@@ -1,7 +1,9 @@
+import { PUBLIC_MTV_BACKEND } from '$env/static/public'
 export async function load({ fetch }) {
-    
-    const res = await fetch('http://192.168.0.94:8080/western/hford1923/01');
-    const season1 = await res.json();
 
-return { season1 }
+    let addr = PUBLIC_MTV_BACKEND + '/western/hford1923/01'
+    const res = await fetch(addr);
+    const ford = await res.json();
+
+return { ford }
 }

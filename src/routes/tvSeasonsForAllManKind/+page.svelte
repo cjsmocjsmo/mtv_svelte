@@ -33,7 +33,7 @@
 	</div>
 	<div>
 		<h1>Season 3</h1>
-		<div>
+		<div class="seaList">
 			{#each ddata3 as d3}
 				<SeasonButton info={d3} />
 			{/each}

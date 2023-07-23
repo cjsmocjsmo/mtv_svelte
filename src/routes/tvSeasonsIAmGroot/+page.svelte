@@ -12,8 +12,8 @@
 	</div>
 	<div>
 		<h1>Season 1</h1>
-		<div>
-			{#each data as d}
+		<div class="seaList">
+			{#each data.iamgroot as d}
 				<SeasonButton info={d} />
 			{/each}
 		</div>
@@ -29,4 +29,11 @@
 		align-items: center;
 		flex: 0.6;
 	}
+	.seaList {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
 </style>
+
