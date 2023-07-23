@@ -1,11 +1,11 @@
 <script>
-	let next = () => {
+	function next() {
 		let resp = fetch('http://192.168.0.94:8181/Next');
 	};
-	let stop = () => {
+	function stop() {
 		let resp = fetch('http://192.168.0.94:8181/Stop');
 	};
-	let prev = () => {
+	function prev() {
 		let prev = fetch('http://192.168.0.94:8181/Previous');
 	};
 </script>
@@ -31,10 +31,10 @@
 	<div
         id="stopBtn"
 		class="controlBtn"
-		on:click={prev}
-		on:keypress={prev}
-		on:keyup={prev}
-		on:keydown={prev}
+		on:click={stop}
+		on:keypress={stop}
+		on:keyup={stop}
+		on:keydown={stop}
 		role="button"
 		tabindex="0"
 	>
@@ -48,10 +48,10 @@
 	<div
         id="nextBtn"
 		class="controlBtn"
-		on:click={prev}
-		on:keypress={prev}
-		on:keyup={prev}
-		on:keydown={prev}
+		on:click={next}
+		on:keypress={next}
+		on:keyup={next}
+		on:keydown={next}
 		role="button"
 		tabindex="0"
 	>

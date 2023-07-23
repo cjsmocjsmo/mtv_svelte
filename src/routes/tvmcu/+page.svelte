@@ -16,20 +16,28 @@
 	import SheHulk from '$lib/images/mcu/shehulk.avif';
 	import WandavisionCard from '../../components/TVWandavisionCard.svelte';
 	import Wandavision from '$lib/images/mcu/wandavision.avif';
+
+	import SecretInvasionCard from '../../components/TVSecretInvasionCard.svelte';
+	import SecretInvasionImg from '$lib/images/secret_invasion.avif';
 </script>
 
 <div>
 	<BackArrow path="/tvshows" />
 	<div class="foo">
 		<div class="bar">
-			<TvFalconWinterSoldierCard src={FalconWinterSoldier} />
-			<TvHawkeyeCard src={Hawkeye} />
+			<SecretInvasionCard src={SecretInvasionImg} />
+
+
 			<TvIAmGrootCard src={IAmGroot} />
 			<TvLokiCard src={Loki} />
-			<MoonKnightCard src={MoonKnight} />
 			<MsMarvelCard src={MsMarvel} />
+			<MoonKnightCard src={MoonKnight} />
+
 			<SheHulkCard src={SheHulk} />
+			<TvHawkeyeCard src={Hawkeye} />
+			<TvFalconWinterSoldierCard src={FalconWinterSoldier} />
 			<WandavisionCard src={Wandavision} />
+
 		</div>
 	</div>
 </div>

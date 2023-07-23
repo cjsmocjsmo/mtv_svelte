@@ -8,13 +8,12 @@
 <main>
 	<BackArrow path="/tvshows" />
 	<div>
-		<h1>Moon Knight</h1>
+		<h1>Secret Invasion</h1>
 	</div>
-
 	<div>
 		<h1>Season 1</h1>
 		<div class="seaList">
-			{#each data.moonknight as d}
+			{#each data.secretinvasion as d}
 				<SeasonButton info={d} />
 			{/each}
 		</div>

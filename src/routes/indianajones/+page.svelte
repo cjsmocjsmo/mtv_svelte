@@ -1,13 +1,16 @@
 <script>
 	import BackArrow from '../../components/BackArrow.svelte';
 	import MovList from '../../components/MovList.svelte';
+	import PlayerControls from '../../components/PlayerControls.svelte';
 	export let data;
 </script>
 
 <main>
 	<BackArrow path="/" />
 	<h1>Indiana Jones</h1>
+	<PlayerControls />
 	<MovList {data} />
+	<PlayerControls />
 </main>
 
 <style>
