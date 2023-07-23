@@ -2,8 +2,15 @@ import { PUBLIC_MTV_BACKEND } from '$env/static/public'
 export async function load({ fetch }) {
 
     let addr = PUBLIC_MTV_BACKEND + 'starwars/visions/01';
+    let addr2 = PUBLIC_MTV_BACKEND + 'starwars/visions/02';
+
     const res = await fetch(addr);
-    const visions = await res.json();
+    const season1 = await res.json();
+
+    const res2 = await fetch(addr2);
+    const season2 = await res2.json();
+
+    const visions = [season1, season2]
 
     return { visions }
 }

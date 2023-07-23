@@ -18,7 +18,7 @@
 			</svg>
 		</a>
 	</div>
-	<div class="movlist">
+	<div class="tvlist">
 		<p ></p>
 		<a href="/tvcomedy"><p class="mov">Comedy</p></a>
 		<p class="mov"></p>
@@ -30,7 +30,6 @@
 		<a href="/tvmcu"><p class="mov">MCU</p></a>
 		<p class="mov"></p>
 		<a href="/tvwesterns"><p class="mov">Western</p></a>
-		
 	</div>
 	<PlayerControls />
 </main>
@@ -54,7 +53,7 @@
 		justify-content: center;
 		align-items: center;
 	}
-	.movlist {
+	.tvlist {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: repeat(5, 1fr);

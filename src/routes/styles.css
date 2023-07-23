@@ -58,7 +58,7 @@ h2 {
 	font-size: 2rem;
 }
 
-pre {
+/* pre {
 	font-size: 16px;
 	font-family: var(--font-mono);
 	background-color: rgba(255, 255, 255, 0.45);
@@ -67,16 +67,16 @@ pre {
 	padding: 0.5em;
 	overflow-x: auto;
 	color: var(--color-text);
-}
+} */
 
-.text-column {
+/* .text-column {
 	display: flex;
 	max-width: 48rem;
 	flex: 0.6;
 	flex-direction: column;
 	justify-content: center;
 	margin: 0 auto;
-}
+} */
 
 input,
 button {

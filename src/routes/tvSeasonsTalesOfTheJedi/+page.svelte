@@ -13,7 +13,7 @@
 	<div>
 		<h1>Season 1</h1>
 		<div class="seaList">
-			{#each data as d}
+			{#each data.talesofthejedi as d}
 				<SeasonButton info={d} />
 			{/each}
 		</div>
@@ -32,6 +32,7 @@
 	.seaList {
 		display: flex;
 		flex-direction: row;
+		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 	}

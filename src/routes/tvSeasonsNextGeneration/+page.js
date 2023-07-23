@@ -1,14 +1,14 @@
 import { PUBLIC_MTV_BACKEND } from '$env/static/public'
 export async function load({ fetch }) {
 
-    let addr = PUBLIC_MTV_BACKEND + 'startrek/NextGeneration/01';
-    let addr2 = PUBLIC_MTV_BACKEND + 'startrek/NextGeneration/02';
-    let addr3 = PUBLIC_MTV_BACKEND + 'startrek/NextGeneration/03';
-    let addr4 = PUBLIC_MTV_BACKEND + 'startrek/NextGeneration/04';
-    let addr5 = PUBLIC_MTV_BACKEND + 'startrek/NextGeneration/05';
-    let addr6 = PUBLIC_MTV_BACKEND + 'startrek/NextGeneration/06';
-    let addr7 = PUBLIC_MTV_BACKEND + 'startrek/NextGeneration/07';
-    
+    let addr = PUBLIC_MTV_BACKEND + 'startrek/tng/01';
+    let addr2 = PUBLIC_MTV_BACKEND + 'startrek/tng/02';
+    let addr3 = PUBLIC_MTV_BACKEND + 'startrek/tng/03';
+    let addr4 = PUBLIC_MTV_BACKEND + 'startrek/tng/04';
+    let addr5 = PUBLIC_MTV_BACKEND + 'startrek/tng/05';
+    let addr6 = PUBLIC_MTV_BACKEND + 'startrek/tng/06';
+    let addr7 = PUBLIC_MTV_BACKEND + 'startrek/tng/07';
+
     const res = await fetch(addr);
     const season1 = await res.json();
 
