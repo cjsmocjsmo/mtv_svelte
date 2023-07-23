@@ -3,8 +3,6 @@
 	import PlayerControls from '../../components/PlayerControls.svelte';
 	import SeasonButton from '../../components/TVSeasonPlayButton.svelte';
 	export let data;
-	// console.log("tvSeasonsSilo");
-	// console.log(data.season1.id);
 </script>
 
 <main>
@@ -15,7 +13,7 @@
 	<div>
 		<h1>Season 1</h1>
 		<div class="seaList">
-			{#each data.season1 as d}
+			{#each data.silo as d}
 				<SeasonButton info={d} />
 			{/each}
 		</div>

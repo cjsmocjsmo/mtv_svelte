@@ -3,8 +3,8 @@
 	import PlayerControls from '../../components/PlayerControls.svelte';
 	import SeasonButton from '../../components/TVSeasonPlayButton.svelte';
 	export let data;
-	let ddata = data[0];
-	let ddata2 = data[1];
+	let ddata = data.prehistoricplanet[0];
+	let ddata2 = data.prehistoricplanet[1];
 </script>
 
 <main>
@@ -15,7 +15,7 @@
 	<div>
 		<h1>Season 1</h1>
 		<div class="seaList">
-			{#each ddata.season1 as d}
+			{#each ddata as d}
 				<SeasonButton info={d} />
 			{/each}
 		</div>
@@ -23,7 +23,7 @@
 	<div>
 		<h1>Season 2</h1>
 		<div class="seaList">
-			{#each ddata2.season2 as d1}
+			{#each ddata2 as d1}
 				<SeasonButton info={d1} />
 			{/each}
 		</div>

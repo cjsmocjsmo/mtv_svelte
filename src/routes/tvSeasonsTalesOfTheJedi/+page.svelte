@@ -12,7 +12,7 @@
 	</div>
 	<div>
 		<h1>Season 1</h1>
-		<div>
+		<div class="seaList">
 			{#each data as d}
 				<SeasonButton info={d} />
 			{/each}
@@ -28,5 +28,11 @@
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
+	}
+	.seaList {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
 	}
 </style>

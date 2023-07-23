@@ -1,7 +1,10 @@
+import { PUBLIC_MTV_BACKEND } from '$env/static/public'
 export async function load({ fetch }) {
 
-    const res = await fetch('http://192.168.0.94:8080/starwars/talesofthejedi/01');
-    const season1 = await res.json();
+    let addr = PUBLIC_MTV_BACKEND + 'starwars/talesofthejedi/01';
 
-    return { season1 }
+    const res = await fetch(addr);
+    const talesofthejedi = await res.json();
+
+    return { talesofthejedi }
 }
