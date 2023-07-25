@@ -10,6 +10,8 @@ fi
 sudo chmod 755 /etc/systemd/system/mtv_svelte.service;
 sudo chown root:root /etc/systemd/system/mtv_svelte.service;
 
+chmod 755 /home/pi/mtv_svelte/service.sh;
+
 cd /home/pi/mtv_svelte;
 git pull;
 
