@@ -1,7 +1,18 @@
 #!/bin/sh
 
+if [ ! -f /etc/systemd/system/mtv_svelte.service ]; then
+    sudo mv /home/pi/mtv_svelte/mtv_svelte.service /etc/systemd/system/mtv_svelte.service;
+else
+    sudo systemctl stop mtv_svelte.service;
+fi
+
+cd /home/pi/mtv_svelte;
 git pull;
 npm i -D @sveltejs/adapter-node;
 npm install dotenv;
 npm install;
-ORIGIN="http://192.168.0.74:3000" PORT=3000 node -r dotenv/config build
+
+sudo systemctl start mtv_svelte.service;
+sudo systemctl enable mtv_svelte.service;
+
+
