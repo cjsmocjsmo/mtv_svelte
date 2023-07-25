@@ -1,9 +1,9 @@
 
 export async function load({ fetch }) {
 
-    let s1 = 'http://192.168.0.94:3000/startrek/strangenewworlds/01';
-    let s2 = 'http://192.168.0.94:3000/startrek/strangenewworlds/02';
-    let s3 = 'http://192.168.0.94:3000/startrek/strangenewworlds/03';
+    let s1 = 'http://192.168.0.94:8080/startrek/strangenewworlds/01';
+    let s2 = 'http://192.168.0.94:8080/startrek/strangenewworlds/02';
+    let s3 = 'http://192.168.0.94:8080/startrek/strangenewworlds/03';
 
     const res = await fetch(s1);
     const season1 = await res.json();

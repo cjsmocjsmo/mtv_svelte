@@ -1,10 +1,10 @@
 
 export async function load({ fetch }) {
 
-    let addr = 'http://192.168.0.94:3000/startrek/discovery/01'
-    let addr2 = 'http://192.168.0.94:3000/startrek/discovery/02'
-    let addr3 = 'http://192.168.0.94:3000/startrek/discovery/03'
-    let addr4 = 'http://192.168.0.94:3000/startrek/discovery/04'
+    let addr = 'http://192.168.0.94:8080/startrek/discovery/01'
+    let addr2 = 'http://192.168.0.94:8080/startrek/discovery/02'
+    let addr3 = 'http://192.168.0.94:8080/startrek/discovery/03'
+    let addr4 = 'http://192.168.0.94:8080/startrek/discovery/04'
 
     const res = await fetch(addr);
     const season1 = await res.json();

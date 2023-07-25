@@ -1,7 +1,7 @@
 
 export async function load({ fetch }) {
 
-    const addr = 'http://192.168.0.94:3000/drama';
+    const addr = 'http://192.168.0.94:8080/drama';
     const res = await fetch(addr);
     const movlist = await res.json();
 

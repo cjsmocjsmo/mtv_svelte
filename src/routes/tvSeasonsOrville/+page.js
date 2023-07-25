@@ -1,9 +1,9 @@
 
 export async function load({ fetch }) {
 
-    let addr = 'http://192.168.0.94:3000/scifi/orville/01';
-    let addr2 = 'http://192.168.0.94:3000/scifi/orville/02';
-    let addr3 = 'http://192.168.0.94:3000/scifi/orville/03';
+    let addr = 'http://192.168.0.94:8080/scifi/orville/01';
+    let addr2 = 'http://192.168.0.94:8080/scifi/orville/02';
+    let addr3 = 'http://192.168.0.94:8080/scifi/orville/03';
 
 
     const res = await fetch(addr);
