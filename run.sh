@@ -7,7 +7,7 @@ else
     sudo systemctl stop mtv_svelte.service;
 fi
 
-sudo chmod 644 /etc/systemd/system/mtv_svelte.service;
+sudo chmod 755 /etc/systemd/system/mtv_svelte.service;
 sudo chown root:root /etc/systemd/system/mtv_svelte.service;
 
 cd /home/pi/mtv_svelte;
