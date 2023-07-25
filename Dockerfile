@@ -36,4 +36,4 @@ EXPOSE 3000
 # ORIGIN="http://192.168.0.26:3000" PORT=3000 node -r dotenv/config build
 # CMD ["tail", "-f", "/dev/null"]
 
-CMD ["ORIGIN=http://192.168.0.94:3000", "PORT=3000", "node", "-r", "dotenv/config", "build"]
+CMD ["PORT=3000", "node", "-r", "dotenv/config", "build"]
