@@ -3,7 +3,7 @@ Description=mtv_svelte service file
 After=network.target
 
 [Service]
-ExecStart=/home/pi/mtv_svelte/service.sh
+ExecStart=/bin/sh /home/pi/mtv_svelte/service.sh
 Restart=always
 User=pi
 Group=pi
