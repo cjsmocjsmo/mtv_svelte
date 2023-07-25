@@ -1,7 +1,7 @@
-import { PUBLIC_MTV_BACKEND } from '$env/static/public'
+
 export async function load({ fetch }) {
 
-    const addr = PUBLIC_MTV_BACKEND + 'chucknorris';
+    const addr = 'http://192.168.0.74:3000/chucknorris';
     const res = await fetch(addr);
     const movlist = await res.json();
 

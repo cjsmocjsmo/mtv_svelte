@@ -1,10 +1,10 @@
-import { PUBLIC_MTV_BACKEND } from '$env/static/public'
+
 export async function load({ fetch }) {
 
-    let addr = PUBLIC_MTV_BACKEND + 'startrek/discovery/01'
-    let addr2 = PUBLIC_MTV_BACKEND + 'startrek/discovery/02'
-    let addr3 = PUBLIC_MTV_BACKEND + 'startrek/discovery/03'
-    let addr4 = PUBLIC_MTV_BACKEND + 'startrek/discovery/04'
+    let addr = 'http://192.168.0.74:3000/startrek/discovery/01'
+    let addr2 = 'http://192.168.0.74:3000/startrek/discovery/02'
+    let addr3 = 'http://192.168.0.74:3000/startrek/discovery/03'
+    let addr4 = 'http://192.168.0.74:3000/startrek/discovery/04'
 
     const res = await fetch(addr);
     const season1 = await res.json();

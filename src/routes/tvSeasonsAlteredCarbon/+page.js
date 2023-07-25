@@ -1,9 +1,9 @@
-import { PUBLIC_MTV_BACKEND } from '$env/static/public'
+
 export async function load({ fetch }) {
 
-    let addr = PUBLIC_MTV_BACKEND + '/scifi/alteredcarbon/01'
-    let addr2 = PUBLIC_MTV_BACKEND + '/scifi/alteredcarbon/02'
-    
+    let addr = 'http://192.168.0.74:3000//scifi/alteredcarbon/01'
+    let addr2 = 'http://192.168.0.74:3000//scifi/alteredcarbon/02'
+
     const res = await fetch(addr);
     const season1 = await res.json();
 
