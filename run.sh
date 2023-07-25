@@ -1,6 +1,6 @@
 #!/bin/sh
 
-
+git config pull.ff only
 killall node;
 
 cd /home/pi/mtv_svelte;

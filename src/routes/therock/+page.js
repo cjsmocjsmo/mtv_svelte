@@ -1,7 +1,7 @@
 
 export async function load({ fetch }) {
 
-    const addr = 'http://192.168.0.74:3000/therock';
+    const addr = 'http://192.168.0.94:3000/therock';
     const res = await fetch(addr);
     const movlist = await res.json();
 
