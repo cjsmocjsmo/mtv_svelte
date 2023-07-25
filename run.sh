@@ -8,7 +8,5 @@ git pull;
 
 npm i -D @sveltejs/adapter-node;
 npm install;
-
-
-
-nohup node build >/dev/null 2>&1 &
+npm run build;
+PORT=3000 nohup node build >/dev/null 2>&1 &
