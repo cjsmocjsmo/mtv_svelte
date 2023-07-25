@@ -1,7 +1,7 @@
 #!/bin/sh
 
 
-
+killall node;
 
 cd /home/pi/mtv_svelte;
 git pull;
