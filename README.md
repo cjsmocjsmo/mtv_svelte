@@ -1,5 +1,5 @@
 # mtv_svelte
 
-exec run.sh
-
+cd /home/pi/mtv_svelte
+git pull
 sh run.sh
