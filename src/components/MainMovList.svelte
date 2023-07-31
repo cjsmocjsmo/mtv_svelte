@@ -12,7 +12,6 @@
 	<a data-sveltekit-preload-data="tap" href="comedy"><p class="mov">Comedy</p></a>
 	<a data-sveltekit-preload-data="tap" href="drama"><p class="mov">Drama</p></a>
 	<a data-sveltekit-preload-data="tap" href="documentary"><p class="mov">Documentary</p></a>
-	<a data-sveltekit-preload-data="tap" href="eternalquon"><p class="mov">Eternal Quon</p></a>
 	<a data-sveltekit-preload-data="tap" href="fantasy"><p class="mov">Fantasy</p></a>
 	<a data-sveltekit-preload-data="tap" href="godzilla"><p class="mov">Godzilla</p></a>
 	<a data-sveltekit-preload-data="tap" href="harrypotter"><p class="mov">Harry Potter</p></a>
@@ -30,6 +29,7 @@
 	<a data-sveltekit-preload-data="tap" href="pirates"><p class="mov">Pirates</p></a>
 	<a data-sveltekit-preload-data="tap" href="riddick"><p class="mov">Riddick</p></a>
 	<a data-sveltekit-preload-data="tap" href="scifi"><p class="mov">SciFi</p></a>
+	<a data-sveltekit-preload-data="tap" href="stalone"><p class="mov">Stalone</p></a>
 	<a data-sveltekit-preload-data="tap" href="startrek"><p class="mov">Star Trek</p></a>
 	<a data-sveltekit-preload-data="tap" href="starwars"><p class="mov">Star Wars</p></a>
 	<a data-sveltekit-preload-data="tap" href="superheros"><p class="mov">Super Heros</p></a>
