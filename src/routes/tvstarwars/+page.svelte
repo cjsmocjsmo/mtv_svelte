@@ -14,13 +14,16 @@
 	import ObiWanImg from '$lib/images/starwars/obiwan.avif';
 	import TvVisionsCard from '../../components/TVVisionsCard.svelte';
 	import VisionsImg from '$lib/images/starwars/visions.avif';
+	import AhsokaImg from '$lib/images/ahsoka.webp';
+	import TvAhsokaCard from '../../components/TVAhsokaCard.svelte';
 </script>
 
 <div>
 	<BackArrow path="/tvshows" />
-	<h1>Star Trek</h1>
+	<h1>Star Wars</h1>
 	<div class="foo">
 		<div class="bar">
+			<TvAhsokaCard src={AhsokaImg} />
 			<TvAndorCard src={AndorImg} />
 			<TvBadBatchCard src={BadBatchImg} />
 			<TvBobbaFettCard src={BobbaFettImg} />
