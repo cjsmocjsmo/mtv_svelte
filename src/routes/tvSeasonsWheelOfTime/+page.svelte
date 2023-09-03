@@ -13,7 +13,15 @@
 	<div>
 		<h1>Season 1</h1>
 		<div class="seaList">
-			{#each data.wheeloftime as d}
+			{#each data.wheeloftime[0] as d}
+				<SeasonButton info={d} />
+			{/each}
+		</div>
+	</div>
+	<div>
+		<h1>Season 2</h1>
+		<div class="seaList">
+			{#each data.wheeloftime[1] as d}
 				<SeasonButton info={d} />
 			{/each}
 		</div>
