@@ -3,12 +3,12 @@
 	export let data;
 	let mtvdb = data.setup_check;
 
-	let statuscheck = '';
-	let status_check = async () => {
-		const addr = 'http://192.168.0.94:8080/setupcheck/now';
-		const res = await fetch(addr);
-		statuscheck = await res.json();
-	};
+	// let statuscheck = '';
+	// let status_check = async () => {
+	// 	const addr = 'http://192.168.0.94:8080/setupcheck/now';
+	// 	const res = await fetch(addr);
+	// 	statuscheck = await res.json();
+	// };
 
 	let setupstatus = '';
 	let run_setup = async () => {
@@ -150,17 +150,7 @@
 		color: white;
 		margin: 1em;
 	}
-	.setup2 {
-		display: block;
-		width: 10em;
-		height: 3em;
-		border-style: solid;
-		border-width: 3px;
-		border-color: #0deb14;
-		border-radius: 0.75em;
-		background-color: #4caf50;
-		margin: 1em;
-	}
+
 	button {
 		display: block;
 		width: 10em;

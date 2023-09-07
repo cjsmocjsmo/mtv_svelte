@@ -6,6 +6,7 @@
 	let ddata = data.lowerdecks[0];
 	let ddata2 = data.lowerdecks[1];
 	let ddata3 = data.lowerdecks[2];
+	let ddata4 = data.lowerdecks[3];
 </script>
 
 <main>
@@ -34,6 +35,14 @@
 		<div class="seaList">
 			{#each ddata3 as d2}
 				<SeasonButton info={d2} />
+			{/each}
+		</div>
+	</div>
+	<div>
+		<h1>Season 4</h1>
+		<div class="seaList">
+			{#each ddata4 as d4}
+				<SeasonButton info={d4} />
 			{/each}
 		</div>
 	</div>
