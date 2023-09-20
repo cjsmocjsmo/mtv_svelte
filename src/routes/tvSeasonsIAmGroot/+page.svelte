@@ -19,7 +19,7 @@
 		</div>
 	</div>
 	<div>
-		<h1>Season 1</h1>
+		<h1>Season 2</h1>
 		<div class="seaList">
 			{#each data.iamgroot2 as dd}
 				<SeasonButton info={dd} />
