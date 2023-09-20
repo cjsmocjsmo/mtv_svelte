@@ -13,8 +13,16 @@
 	<div>
 		<h1>Season 1</h1>
 		<div class="seaList">
-			{#each data.iamgroot as d}
+			{#each data.iamgroot1 as d}
 				<SeasonButton info={d} />
+			{/each}
+		</div>
+	</div>
+	<div>
+		<h1>Season 1</h1>
+		<div class="seaList">
+			{#each data.iamgroot2 as dd}
+				<SeasonButton info={dd} />
 			{/each}
 		</div>
 	</div>
