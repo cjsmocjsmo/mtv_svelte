@@ -4,7 +4,7 @@
 
 <div class="baz2">
 	<div class="link-card">
-		<a href="/tvSeasonsSheHulk"><img {src} alt="" /></a>
+		<a href="/TVShows/tvmcu/tvSeasonsSheHulk"><img {src} alt="" /></a>
 	</div>
 </div>
 

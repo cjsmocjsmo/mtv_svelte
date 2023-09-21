@@ -4,7 +4,7 @@
 
 <div class="baz2">
 	<div class="link-card">
-		<a href="/tvSeasonsStrangeNewWorlds"><img {src} alt="" /></a>
+		<a href="/TVShows/tvstartrek/tvSeasonsStrangeNewWorlds"><img {src} alt="" /></a>
 	</div>
 </div>
 

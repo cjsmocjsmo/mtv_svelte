@@ -5,7 +5,7 @@
 
 <div class="baz2">
 	<div class="link-card">
-		<a href="/tvSeasonsPicard"><img {src} alt="" /></a>
+		<a href="/TVShows/tvstartrek/tvSeasonsPicard"><img {src} alt="" /></a>
 	</div>
 </div>
 

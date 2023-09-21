@@ -5,7 +5,7 @@
 
 <div class="baz2">
 	<div class="link-card">
-		<a href="/tvSeasonsObiWan"><img {src} alt="" /></a>
+		<a href="/TVShows/tvstarwars/tvSeasonsObiWan"><img {src} alt="" /></a>
 	</div>
 </div>
 

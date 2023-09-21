@@ -4,7 +4,7 @@
 
 <div class="baz2">
 	<div class="link-card">
-		<a href="/tvSeasonsMandalorian"><img {src} alt="" /></a>
+		<a href="/TVShows/tvstarwars/tvSeasonsMandalorian"><img {src} alt="" /></a>
 	</div>
 </div>
 

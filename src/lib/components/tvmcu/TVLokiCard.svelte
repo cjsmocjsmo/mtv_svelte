@@ -4,7 +4,7 @@
 
 <div class="baz2">
 	<div class="link-card">
-		<a href="/tvSeasonsLoki"><img {src} alt="" /></a>
+		<a href="/TVShows/tvmcu/tvSeasonsLoki"><img {src} alt="" /></a>
 	</div>
 </div>
 

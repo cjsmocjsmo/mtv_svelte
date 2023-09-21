@@ -4,7 +4,7 @@
 
 <div class="baz2">
 	<div class="link-card">
-		<a href="/tvSeasonsRingsOfPower"><img {src} alt="" /></a>
+		<a href="/TVShows/tvfantasy/tvSeasonsRingsOfPower"><img {src} alt="" /></a>
 	</div>
 </div>
 

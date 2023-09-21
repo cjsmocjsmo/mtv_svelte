@@ -4,7 +4,7 @@
 
 <div class="baz2">
 	<div class="link-card">
-		<a href="/tvSeasonsSecretInvasion"><img {src} alt="" /></a>
+		<a href="/TVShows/tvmcu/tvSeasonsSecretInvasion"><img {src} alt="" /></a>
 	</div>
 </div>
 

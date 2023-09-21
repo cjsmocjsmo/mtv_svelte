@@ -1,6 +1,6 @@
 <script>
 	import BackArrow from '$lib/components/BackArrow.svelte';
-	import TvPreHistoricPlanetCard from '$lib/components/TVPreHistoricPlanetCard.svelte';
+	import TvPreHistoricPlanetCard from '$lib/components/science/TVPreHistoricPlanetCard.svelte';
 	import PrehistoricImg from '$lib/images/prehistoricplanet.avif';
 </script>
 

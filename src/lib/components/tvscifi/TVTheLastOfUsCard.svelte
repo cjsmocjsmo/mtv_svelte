@@ -4,7 +4,7 @@
 
 <div class="baz2">
 	<div class="link-card">
-		<a href="/tvSeasonsTheLastOfUs"><img {src} alt="" /></a>
+		<a href="/TVShows/scifi/tvSeasonsTheLastOfUs"><img {src} alt="" /></a>
 	</div>
 </div>
 
@@ -23,7 +23,6 @@
 		justify-content: center;
 		align-items: center;
 		list-style: none;
-
 		padding: 0.15rem;
 		background-color: rgb(33, 156, 8);
 		background-image: var(--accent-gradient);

@@ -4,7 +4,7 @@
 
 <div class="baz2">
 	<div class="link-card">
-		<a href="/tvSeasonsTalesOfTheJedi"><img {src} alt="" /></a>
+		<a href="/TVShows/tvstarwars/tvSeasonsTalesOfTheJedi"><img {src} alt="" /></a>
 	</div>
 </div>
 
