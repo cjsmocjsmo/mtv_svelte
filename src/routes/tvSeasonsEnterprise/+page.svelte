@@ -9,7 +9,7 @@
 </script>
 
 <main>
-	<BackArrow path="/tvshows" />
+	<BackArrow path="/TVShows/tvshows" />
 	<div>
 		<h1>Enterprise</h1>
 	</div>

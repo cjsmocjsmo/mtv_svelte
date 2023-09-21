@@ -21,7 +21,7 @@
 </script>
 
 <div>
-	<BackArrow path="/tvshows" />
+	<BackArrow path="/TVShows/tvshows" />
 	<div class="foo">
 		<div class="bar">
 			<SecretInvasionCard src={SecretInvasionImg} />

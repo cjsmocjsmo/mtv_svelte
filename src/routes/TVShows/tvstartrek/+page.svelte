@@ -21,7 +21,7 @@
 </script>
 
 <div>
-	<BackArrow path="/tvshows" />
+	<BackArrow path="/TVShows/tvshows" />
 	<h1>Star Trek</h1>
 	<div class="foo">
 		<div class="bar">

@@ -6,7 +6,7 @@
 </script>
 
 <main>
-	<BackArrow path="/tvshows" />
+	<BackArrow path="/TVShows/tvshows" />
 	<div>
 		<h1>Rings Of Power</h1>
 	</div>

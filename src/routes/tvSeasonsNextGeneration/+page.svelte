@@ -13,7 +13,7 @@
 </script>
 
 <main>
-	<BackArrow path="/tvshows" />
+	<BackArrow path="/TVShows/tvshows" />
 	<div>
 		<h1>The Next Generation</h1>
 	</div>

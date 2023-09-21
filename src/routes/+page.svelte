@@ -12,7 +12,7 @@
 	<h1>MTV</h1>
 	<div class="iconDiv">
 		<div class="movicon">
-			<a href="/tvshows"
+			<a href="/TVShows/tvshows"
 				><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
 					<path
 						d="M64 64V352H576V64H64zM0 0H64 576h64V64 352v64H576 64 0V352 64 0zM128 448H512h32v64H512 128 96V448h32z"

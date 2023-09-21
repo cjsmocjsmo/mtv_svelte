@@ -37,16 +37,16 @@
 	</div>
 	<div class="tvlist">
 		<p ></p>
-		<a href="/tvcomedy"><p class="mov">Comedy</p></a>
+		<a href="/TVShows/tvcomedy"><p class="mov">Comedy</p></a>
 		<p class="mov"></p>
-		<a href="/tvfantasy"><p class="mov">Fantasy</p></a>
-		<a href="/tvstartrek"><p class="mov">Star Trek</p></a>
-		<a href="/tvstarwars"><p class="mov">Star Wars</p></a>
-		<a href="/tvscifi"><p class="mov">SciFi</p></a>
-		<a href="/tvscience"><p class="mov">Science</p></a>
-		<a href="/tvmcu"><p class="mov">MCU</p></a>
+		<a href="/TVShows/tvfantasy"><p class="mov">Fantasy</p></a>
+		<a href="/TVShows/tvstartrek"><p class="mov">Star Trek</p></a>
+		<a href="/TVShows/tvstarwars"><p class="mov">Star Wars</p></a>
+		<a href="/TVShows/tvscifi"><p class="mov">SciFi</p></a>
+		<a href="/TVShows/tvscience"><p class="mov">Science</p></a>
+		<a href="/TVShows/tvmcu"><p class="mov">MCU</p></a>
 		<p class="mov"></p>
-		<a href="/tvwesterns"><p class="mov">Western</p></a>
+		<a href="/TVShows/tvwesterns"><p class="mov">Western</p></a>
 	</div>
 	<PlayerControls />
 </main>
