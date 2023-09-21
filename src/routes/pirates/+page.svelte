@@ -1,7 +1,7 @@
 <script>
-	import BackArrow from '../../components/BackArrow.svelte';
-	import MovList from '../../components/MovList.svelte';
-	import PlayerControls from '../../components/PlayerControls.svelte';
+	import BackArrow from '$lib/components/BackArrow.svelte';
+	import MovList from '$lib/components/MovList.svelte';
+	import PlayerControls from '$lib/components/PlayerControls.svelte';
 	export let data;
 </script>
 

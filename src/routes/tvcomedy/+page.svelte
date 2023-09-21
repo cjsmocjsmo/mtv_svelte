@@ -1,6 +1,6 @@
 <script>
-	import BackArrow from '../../components/BackArrow.svelte';
-	import TvFuuBarCard from '../../components/TVFuuBarCard.svelte';
+	import BackArrow from '$lib/components/BackArrow.svelte';
+	import TvFuuBarCard from '$lib/components/comedy/TVFuuBarCard.svelte';
 	import FUUBar from '$lib/images/fubar.webp';
 </script>
 

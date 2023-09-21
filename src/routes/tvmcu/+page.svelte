@@ -1,23 +1,22 @@
 <script>
-	import BackArrow from '../../components/BackArrow.svelte';
-	import TvIAmGrootCard from '../../components/TVIAmGrootCard.svelte';
+	import BackArrow from '$lib/components/BackArrow.svelte';
+	import TvIAmGrootCard from '$lib/components/tvmcu/TVIAmGrootCard.svelte';
 	import IAmGroot from '$lib/images/mcu/iamgroot.avif';
-	import TvFalconWinterSoldierCard from '../../components/TVFalconWinterSoldierCard.svelte';
+	import TvFalconWinterSoldierCard from '$lib/components/tvmcu/TVFalconWinterSoldierCard.svelte';
 	import FalconWinterSoldier from '$lib/images/mcu/falconwintersoldier.avif';
-	import TvLokiCard from '../../components/TVLokiCard.svelte';
+	import TvLokiCard from '$lib/components/tvmcu/TVLokiCard.svelte';
 	import Loki from '$lib/images/mcu/loki.avif';
-	import TvHawkeyeCard from '../../components/TVHawkeyeCard.svelte';
+	import TvHawkeyeCard from '$lib/components/tvmcu/TVHawkeyeCard.svelte';
 	import Hawkeye from '$lib/images/mcu/Hawkeye.avif';
-	import MoonKnightCard from '../../components/TVMoonKnightCard.svelte';
+	import MoonKnightCard from '$lib/components/tvmcu/TVMoonKnightCard.svelte';
 	import MoonKnight from '$lib/images/mcu/moonknight.avif';
-	import MsMarvelCard from '../../components/TVMsMarvelCard.svelte';
+	import MsMarvelCard from '$lib/components/tvmcu/TVMsMarvelCard.svelte';
 	import MsMarvel from '$lib/images/mcu/ms_marvel.avif';
-	import SheHulkCard from '../../components/TVSheHulkCard.svelte';
+	import SheHulkCard from '$lib/components/tvmcu/TVSheHulkCard.svelte';
 	import SheHulk from '$lib/images/mcu/shehulk.avif';
-	import WandavisionCard from '../../components/TVWandavisionCard.svelte';
+	import WandavisionCard from '$lib/components/tvmcu/TVWandavisionCard.svelte';
 	import Wandavision from '$lib/images/mcu/wandavision.avif';
-
-	import SecretInvasionCard from '../../components/TVSecretInvasionCard.svelte';
+	import SecretInvasionCard from '$lib/components/tvmcu/TVSecretInvasionCard.svelte';
 	import SecretInvasionImg from '$lib/images/secret_invasion.avif';
 </script>
 

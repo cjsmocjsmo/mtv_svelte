@@ -1,22 +1,22 @@
 <script>
-	import BackArrow from '../../components/BackArrow.svelte';
-	import TvVoyagerCard from '../../components/TVVoyagerCard.svelte';
+	import BackArrow from '$lib/components/BackArrow.svelte';
+	import TvVoyagerCard from '$lib/components/tvstartrek/TVVoyagerCard.svelte';
 	import VoyagerImg from '$lib/images/startrek/voyager.avif';
-	import TvSTTVCard from '../../components/TVSTTVCard.svelte';
+	import TvSTTVCard from '$lib/components/tvstartrek/TVSTTVCard.svelte';
 	import STTVImg from '$lib/images/startrek/sttv.avif';
-	import TvEnterpriseCard from '../../components/TVEnterpriseCard.svelte';
+	import TvEnterpriseCard from '$lib/components/tvstartrek/TVEnterpriseCard.svelte';
 	import EnterpriseImg from '$lib/images/startrek/enterprise.avif';
-	import TvNextGenerationCard from '../../components/TVNextGenerationCard.svelte';
+	import TvNextGenerationCard from '$lib/components/tvstartrek/TVNextGenerationCard.svelte';
 	import NextGenerationImg from '$lib/images/startrek/nextgen.avif';
-	import TvDiscoveryCard from '../../components/TVDiscoveryCard.svelte';
+	import TvDiscoveryCard from '$lib/components/tvstartrek/TVDiscoveryCard.svelte';
 	import DiscoveryImg from '$lib/images/startrek/discovery.avif';
-	import TvPicardCard from '../../components/TVPicardCard.svelte';
+	import TvPicardCard from '$lib/components/tvstartrek/TVPicardCard.svelte';
 	import PicardImg from '$lib/images/startrek/picard.avif';
-	import TvLowerDecksCard from '../../components/TVLowerDecksCard.svelte';
+	import TvLowerDecksCard from '$lib/components/tvstartrek/TVLowerDecksCard.svelte';
 	import LowerDecksImg from '$lib/images/startrek/lowerdecks.avif';
-	import TvProdigyCard from '../../components/TVProdigyCard.svelte';
+	import TvProdigyCard from '$lib/components/tvstartrek/TVProdigyCard.svelte';
 	import ProdigyImg from '$lib/images/startrek/prodigy.avif';
-	import TvStrangeNewWorldsCard from '../../components/TVStrangeNewWorldsCard.svelte';
+	import TvStrangeNewWorldsCard from '$lib/components/tvstartrek/TVStrangeNewWorldsCard.svelte';
 	import StrangeNewWorldsImg from '$lib/images/startrek/strangenewworlds.avif';
 </script>
 

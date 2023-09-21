@@ -1,10 +1,10 @@
 <script>
-	import BackArrow from '../../components/BackArrow.svelte';
-	import TvHouseOfTheDragonCard from '../../components/TVHouseOfTheDragonCard.svelte';
+	import BackArrow from '$lib/components/BackArrow.svelte';
+	import TvHouseOfTheDragonCard from '$lib/components/fantasy/TVHouseOfTheDragonCard.svelte';
 	import HouseOfTheDragon from '$lib/images/fantasy/houseofthedragon.avif';
-	import RingsOfPowerCard from '../../components/TVRingsOfPowerCard.svelte';
+	import RingsOfPowerCard from '$lib/components/fantasy/TVRingsOfPowerCard.svelte';
 	import RingsOfPower from '$lib/images/fantasy/thelordoftheringsringsofpower.avif';
-	import TvWheelOfTimeCard from '../../components/TVWheelOfTimeCard.svelte';
+	import TvWheelOfTimeCard from '$lib/components/fantasy/TVWheelOfTimeCard.svelte';
 	import WheelOfTime from '$lib/images/fantasy/wheeloftime.avif';
 </script>
 

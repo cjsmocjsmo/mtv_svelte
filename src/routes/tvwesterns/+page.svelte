@@ -1,8 +1,8 @@
 <script>
-	import BackArrow from '../../components/BackArrow.svelte';
-	import TvhFord1923Card from '../../components/TVHFord1923Card.svelte';
+	import BackArrow from '$lib/components/BackArrow.svelte';
+	import TvhFord1923Card from '$lib/components/TVHFord1923Card.svelte';
     import HFord1923Img from '$lib/images/1923.avif';
-	
+
 </script>
 
 <div>
@@ -11,7 +11,7 @@
 	<div class="foo">
 		<div class="bar">
 			<TvhFord1923Card src={HFord1923Img} />
-			
+
 		</div>
 	</div>
 </div>

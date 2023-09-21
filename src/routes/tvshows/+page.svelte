@@ -1,5 +1,5 @@
 <script>
-	import PlayerControls from '../../components/PlayerControls.svelte';
+	import PlayerControls from '$lib/components/PlayerControls.svelte';
 </script>
 
 <svelte:head>

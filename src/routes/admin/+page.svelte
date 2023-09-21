@@ -1,5 +1,5 @@
 <script>
-	import BackArrow from '../../components/BackArrow.svelte';
+	import BackArrow from '$lib/components/BackArrow.svelte';
 	export let data;
 	let mtvdb = data.setup_check;
 

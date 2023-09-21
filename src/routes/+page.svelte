@@ -1,6 +1,6 @@
 <script>
-	import PlayerControls from '../components/PlayerControls.svelte';
-	import MainMovList from '../components/MainMovList.svelte';
+	import PlayerControls from '$lib/components/PlayerControls.svelte';
+	import MainMovList from '$lib/components/MainMovList.svelte';
 </script>
 
 <svelte:head>

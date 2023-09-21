@@ -1,7 +1,7 @@
 <script>
-	import BackArrow from '../../components/BackArrow.svelte';
-	import SeasonButton from '../../components/TVSeasonPlayButton.svelte';
-	import PlayerControls from '../../components/PlayerControls.svelte';
+	import BackArrow from '$lib/components/BackArrow.svelte';
+	import SeasonButton from '$lib/components/TVSeasonPlayButton.svelte';
+	import PlayerControls from '$lib/components/PlayerControls.svelte';
 	export let data;
 	let s1 = data.ahsoka[0];
 </script>
