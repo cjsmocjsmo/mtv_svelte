@@ -1,14 +1,16 @@
 <script>
 	import BackArrow from '$lib/components/BackArrow.svelte';
-	import TvPreHistoricPlanetCard from '$lib/components/science/TVPreHistoricPlanetCard.svelte';
-	import PrehistoricImg from '$lib/images/science/prehistoricplanet.avif';
+    import TheContinental from '$lib/components/action/TVTheContinentalCard.svelte';
+    import TheContinentalimg from '$lib/images/action/continental.webp';
+
 </script>
 
 <div>
 	<BackArrow path="/TVShows/tvshows" />
 	<div class="foo">
 		<div class="bar">
-			<TvPreHistoricPlanetCard src={PrehistoricImg} />
+            <TheContinental src={TheContinentalimg} />
+
 		</div>
 	</div>
 </div>
@@ -18,7 +20,6 @@
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		grid-gap: 1rem;
-		margin-left: 2em;
 	}
 
 	@media (min-width: 500px) {
@@ -26,7 +27,7 @@
 			grid-template-columns: repeat(2, 1fr);
 		}
 	}
-	/* @media (min-width: 700px) {
+	@media (min-width: 700px) {
 		.bar {
 			grid-template-columns: repeat(3, 1fr);
 		}
@@ -35,5 +36,5 @@
 		.bar {
 			grid-template-columns: repeat(4, 1fr);
 		}
-	} */
+	}
 </style>

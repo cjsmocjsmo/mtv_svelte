@@ -4,7 +4,7 @@
 
 <div class="baz2">
 	<div class="link-card">
-		<a href="/TVShows/tvcomedy/tvSeasonsFuuBar"><img {src} alt="" /></a>
+		<a href="/TVShows/tvcomedy/tvSeasonOurFlagMeansDeath"><img {src} alt="" /></a>
 	</div>
 </div>
 

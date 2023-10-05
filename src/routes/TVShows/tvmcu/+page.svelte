@@ -17,7 +17,7 @@
 	import WandavisionCard from '$lib/components/tvmcu/TVWandavisionCard.svelte';
 	import Wandavision from '$lib/images/mcu/wandavision.avif';
 	import SecretInvasionCard from '$lib/components/tvmcu/TVSecretInvasionCard.svelte';
-	import SecretInvasionImg from '$lib/images/secret_invasion.avif';
+	import SecretInvasionImg from '$lib/images/mcu/secret_invasion.avif';
 </script>
 
 <div>

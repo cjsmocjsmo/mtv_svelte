@@ -1,7 +1,7 @@
 <script>
 	import BackArrow from '$lib/components/BackArrow.svelte';
 	import TvSiloCard from '$lib/components/tvscifi/TVSiloCard.svelte';
-	import SiloImg from '$lib/images/Silo.webp';
+	import SiloImg from '$lib/images/scifi/Silo.webp';
 	import TvTheLastOfUsCard from '$lib/components/tvscifi/TVTheLastOfUsCard.svelte';
 	import TheLastOfUsImg from '$lib/images/scifi/lastofus.avif';
 	import TvFoundationCard from '$lib/components/tvscifi/TVFoundationCard.svelte';
