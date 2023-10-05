@@ -1,7 +1,7 @@
 <script>
 	import BackArrow from '$lib/components/BackArrow.svelte';
 	import TvhFord1923Card from '$lib/components/western/TVHFord1923Card.svelte';
-    import HFord1923Img from '$lib/images/1923.avif';
+    import HFord1923Img from '$lib/images/western/1923.avif';
 
 </script>
 

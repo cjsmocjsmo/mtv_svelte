@@ -1,5 +1,5 @@
 <script>
-	import BackArrow from '../../lib/components/BackArrow.svelte';
+	import BackArrow from '$lib/components/BackArrow.svelte';
 	import PlayerControls from '$lib/components/PlayerControls.svelte';
 	import SeasonButton from '$lib/components/TVSeasonPlayButton.svelte';
 	export let data;

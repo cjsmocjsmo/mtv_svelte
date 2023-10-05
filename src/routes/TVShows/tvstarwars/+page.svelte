@@ -22,7 +22,7 @@
 	import ObiWanImg from '$lib/images/starwars/obiwan.avif';
 	import TvObiWanCard from '$lib/components/tvstarwars/TVObiWanCard.svelte';
 
-	import AhsokaImg from '$lib/images/ahsoka.webp';
+	import AhsokaImg from '$lib/images/starwars/ahsoka.webp';
 	import TvAhsokaCard from '$lib/components/tvstarwars/TVAhsokaCard.svelte';
 </script>
 
