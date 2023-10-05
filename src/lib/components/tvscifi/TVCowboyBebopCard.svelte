@@ -4,7 +4,7 @@
 
 <div class="baz2">
 	<div class="link-card">
-		<a href="/TVShows/scifi/tvSeasonsCowboyBebop"><img {src} alt="" /></a>
+		<a href="/TVShows/tvscifi/tvSeasonsCowboyBebop"><img {src} alt="" /></a>
 	</div>
 </div>
 

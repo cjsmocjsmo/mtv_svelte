@@ -5,7 +5,7 @@
 
 <div class="baz2">
 	<div class="link-card">
-		<a href="/TVShows/scifi/tvSeasonsNightSky"><img {src} alt="" /></a>
+		<a href="/TVShows/tvscifi/tvSeasonsNightSky"><img {src} alt="" /></a>
 	</div>
 </div>
 
