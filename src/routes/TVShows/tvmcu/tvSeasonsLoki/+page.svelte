@@ -3,6 +3,8 @@
 	import PlayerControls from '$lib/components/PlayerControls.svelte';
 	import SeasonButton from '$lib/components/TVSeasonPlayButton.svelte';
 	export let data;
+	let s1 = data.loki[0];
+	let s2 = data.loki[1];
 </script>
 
 <main>
@@ -13,7 +15,15 @@
 	<div>
 		<h1>Season 1</h1>
 		<div class="seaList">
-			{#each data.loki as d}
+			{#each s1 as d}
+				<SeasonButton info={d} />
+			{/each}
+		</div>
+	</div>
+	<div>
+		<h1>Season 2</h1>
+		<div class="seaList">
+			{#each s2 as d}
 				<SeasonButton info={d} />
 			{/each}
 		</div>
