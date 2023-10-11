@@ -3,8 +3,8 @@
 	import PlayerControls from '$lib/components/PlayerControls.svelte';
 	import SeasonButton from '$lib/components/TVSeasonPlayButton.svelte';
 	export let data;
-	let s1 = data.loki[0];
-	let s2 = data.loki[1];
+	let s1 = data.lokey[0];
+	let s2 = data.lokey[1];
 </script>
 
 <main>

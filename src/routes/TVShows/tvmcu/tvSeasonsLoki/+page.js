@@ -10,6 +10,6 @@ export async function load({ fetch }) {
     const res2 = await fetch(addr2);
     const loki2 = await res2.json();
 
-    let lokey= [loki, loki2]
+    let lokey = [loki, loki2]
 return { lokey }
 }
