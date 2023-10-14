@@ -2,6 +2,7 @@
 	import BackArrow from '$lib/components/BackArrow.svelte';
 	export let data;
 	let mtvdb = data.setup_check;
+	let stats = data.stats;
 
 	// let statuscheck = '';
 	// let status_check = async () => {
@@ -42,7 +43,7 @@
 					<p class="pKey">Number of Movies:</p>
 				</div>
 				<div class="pValDiv">
-					<p class="pVal">741</p>
+					<p class="pVal">{stats.moviecount}</p>
 				</div>
 			</div>
 			<div class="card">
@@ -50,7 +51,7 @@
 					<p class="pKey">Number of TV Shows:</p>
 				</div>
 				<div class="pValDiv">
-					<p class="pVal">1500</p>
+					<p class="pVal">{stats.tvshowcount}</p>
 				</div>
 			</div>
 			<div class="card">
@@ -58,7 +59,7 @@
 					<p class="pKey">Total Size on Disk:</p>
 				</div>
 				<div class="pValDiv">
-					<p class="pVal">100GB</p>
+					<p class="pVal">{stats.size}</p>
 				</div>
 			</div>
 		</div>
