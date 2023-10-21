@@ -3,7 +3,6 @@ export async function load({ fetch }) {
     const addr = 'http://192.168.0.94:8080/setupcheck/now';
     const res = await fetch(addr);
     const setup_check = await res.json();
-    // let setup_check = true;
 
     let stats_result = null;
     if (setup_check === true) {
@@ -11,7 +10,16 @@ export async function load({ fetch }) {
         const res2 = await fetch(addr2);
         const stats = await res2.json();
         stats_result = stats;
-    };
+    } else {
+        stats_result = [{
+            moviecount: '0',
+            tvshowcount: '0',
+            postercount: '0',
+            size: '0'
+        }];
 
-    return { setup_check, stats_result}
+    }
+    console.log(setup_check, stats_result);
+
+    return { setup_check, stats_result }
 }

@@ -4,18 +4,19 @@
 	let mtvdb = data.setup_check;
 	let stats = data.stats_result;
 
-	let To_Bytes = stats[0].size;
-	let To_GB = To_Bytes / 1000000000;
-	let To_GB2 = To_GB.toFixed(2);
-	let To_GB3 = To_GB2.toString();
-	let To_GB4 = To_GB3 + 'GB';
-
-	let setupstatus = '';
 	let run_setup = async () => {
 		const addr = 'http://192.168.0.94:8080/setup/now';
 		const res = await fetch(addr);
-		setupstatus = await res.json();
+		const setupstatus = await res.json();
+		if (setupstatus === true) {
+			const addr2 = 'http://192.168.0.94:8080/stats';
+			const res2 = await fetch(addr2);
+			stats = await res2.json();
+		}
 	};
+
+	let Bytes = stats[0].size / 1000000000;
+	let To_GB = Bytes.toFixed(2).toString() + 'GB';
 </script>
 
 <main>
@@ -54,7 +55,7 @@
 					<p class="pKey">Total Size on Disk:</p>
 				</div>
 				<div class="pValDiv">
-					<p class="pVal">{To_GB4}</p>
+					<p class="pVal">{To_GB}</p>
 				</div>
 			</div>
 		</div>
@@ -62,7 +63,6 @@
 		<div class="boo2">
 			<div class="btnList">
 				<button on:click={run_setup} class="setup1">Run Setup</button>
-				<p>{setupstatus}</p>
 			</div>
 			<div class="card">
 				<div>
@@ -77,7 +77,7 @@
 					<p class="pKey">Number of Movies:</p>
 				</div>
 				<div class="pValDiv">
-					<p class="pVal2">0</p>
+					<p class="pVal2">{stats[0].moviecount}</p>
 				</div>
 			</div>
 			<div class="card">
@@ -85,7 +85,7 @@
 					<p class="pKey">Number of TV Shows:</p>
 				</div>
 				<div class="pValDiv">
-					<p class="pVal2">0</p>
+					<p class="pVal2">{stats[0].tvshowcount}</p>
 				</div>
 			</div>
 			<div class="card">
@@ -93,7 +93,7 @@
 					<p class="pKey">Total Size on Disk:</p>
 				</div>
 				<div class="pValDiv">
-					<p class="pVal2">0GB</p>
+					<p class="pVal2">{stats[0].size}</p>
 				</div>
 			</div>
 		</div>
@@ -172,7 +172,6 @@
 	.pVal2 {
 		margin-left: 3em;
 		color: red;
-
 	}
 	.pKey {
 		color: white;
