@@ -3,7 +3,6 @@
 	import PlayerControls from '$lib/components/PlayerControls.svelte';
 	import SeasonButton from '$lib/components/TVSeasonPlayButton.svelte';
 	export let data;
-	console.log(data);
 	const ddata = data.foundation[0];
 	const ddata2 = data.foundation[1];
 </script>

@@ -1,20 +1,5 @@
 <script>
 	export let src;
-	// export let number_of_seasons;
-	// import { season } from '$lib/stores.js';
-
-	
-	// 	function update_season1() {
-	// 		season.set(1);
-
-	// 		console.log('update season has been clicked');
-	// 	}
-	// 	function update_season2() {
-	// 		season.set(2);
-
-	// 		console.log('update season has been clicked');
-	// 	}
-	
 </script>
 
 <div class="baz2">

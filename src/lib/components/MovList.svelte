@@ -1,8 +1,6 @@
 <script>
 	export let data;
 	import MovPlayButton from './MOVPlayButton.svelte';
-	console.log("movlist");
-	console.log(data.movlist);
 </script>
 
 <div class="movlist">

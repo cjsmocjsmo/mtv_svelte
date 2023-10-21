@@ -4,11 +4,8 @@
 	let playmovie = () => {
 		const ad = 'http://192.168.0.94:8181/OmxplayerPlayMediaReact?medPath=';
 		let ad2 = ad + info.path;
-		console.log(ad2);
 		let resp = fetch(ad2);
 	}
-	// console.log("TVSeasonPlayButton");
-	// console.log(info);
 </script>
 
 <div>

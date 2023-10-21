@@ -3,7 +3,6 @@
 	import SeasonButton from '$lib/components/TVSeasonPlayButton.svelte';
 	import PlayerControls from '$lib/components/PlayerControls.svelte';
 	export let data;
-	console.log(data);
 </script>
 
 <main>

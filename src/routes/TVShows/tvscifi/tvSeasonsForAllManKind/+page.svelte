@@ -6,7 +6,6 @@
 	const ddata = data.forallmankind[0];
 	const ddata2 = data.forallmankind[1];
 	const ddata3 = data.forallmankind[2];
-	console.log(ddata);
 </script>
 
 <main>

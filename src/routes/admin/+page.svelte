@@ -4,21 +4,11 @@
 	let mtvdb = data.setup_check;
 	let stats = data.stats_result;
 
-	console.log(stats)
-	console.log(stats[0].moviecount)
-
 	let To_Bytes = stats[0].size;
 	let To_GB = To_Bytes / 1000000000;
 	let To_GB2 = To_GB.toFixed(2);
 	let To_GB3 = To_GB2.toString();
 	let To_GB4 = To_GB3 + 'GB';
-	console.log(To_GB4);
-	// let statuscheck = '';
-	// let status_check = async () => {
-	// 	const addr = 'http://192.168.0.94:8080/setupcheck/now';
-	// 	const res = await fetch(addr);
-	// 	statuscheck = await res.json();
-	// };
 
 	let setupstatus = '';
 	let run_setup = async () => {
@@ -35,10 +25,6 @@
 	</div>
 	{#if mtvdb}
 		<div class="boo">
-			<!-- <div class="btnList">
-				<button on:click={status_check} class="setup2">Check Db Status</button>
-				<p>{statuscheck}</p>
-			</div> -->
 			<div class="card">
 				<div>
 					<p class="pKey">Is mtv.db present:</p>
@@ -138,7 +124,6 @@
 		border-radius: 0.75em;
 		background-color: rgb(163, 104, 218);
 	}
-
 	h1 {
 		color: yellowgreen;
 	}
@@ -160,7 +145,6 @@
 		color: white;
 		margin: 1em;
 	}
-
 	button {
 		display: block;
 		width: 10em;
