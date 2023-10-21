@@ -2,8 +2,17 @@
 	import BackArrow from '$lib/components/BackArrow.svelte';
 	export let data;
 	let mtvdb = data.setup_check;
-	let stats = data.stats;
+	let stats = data.stats_result;
 
+	console.log(stats)
+	console.log(stats[0].moviecount)
+
+	let To_Bytes = stats[0].size;
+	let To_GB = To_Bytes / 1000000000;
+	let To_GB2 = To_GB.toFixed(2);
+	let To_GB3 = To_GB2.toString();
+	let To_GB4 = To_GB3 + 'GB';
+	console.log(To_GB4);
 	// let statuscheck = '';
 	// let status_check = async () => {
 	// 	const addr = 'http://192.168.0.94:8080/setupcheck/now';
@@ -43,7 +52,7 @@
 					<p class="pKey">Number of Movies:</p>
 				</div>
 				<div class="pValDiv">
-					<p class="pVal">{stats.moviecount}</p>
+					<p class="pVal">{stats[0].moviecount}</p>
 				</div>
 			</div>
 			<div class="card">
@@ -51,7 +60,7 @@
 					<p class="pKey">Number of TV Shows:</p>
 				</div>
 				<div class="pValDiv">
-					<p class="pVal">{stats.tvshowcount}</p>
+					<p class="pVal">{stats[0].tvshowcount}</p>
 				</div>
 			</div>
 			<div class="card">
@@ -59,7 +68,7 @@
 					<p class="pKey">Total Size on Disk:</p>
 				</div>
 				<div class="pValDiv">
-					<p class="pVal">{stats.size}</p>
+					<p class="pVal">{To_GB4}</p>
 				</div>
 			</div>
 		</div>
@@ -114,7 +123,7 @@
 		flex: 0.6;
 	}
 	.boo {
-		width: 30%;
+		width: 50%;
 		border-style: solid;
 		border-width: 3px;
 		border-color: yellowgreen;
