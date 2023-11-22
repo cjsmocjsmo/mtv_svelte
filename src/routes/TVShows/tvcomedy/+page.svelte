@@ -1,9 +1,7 @@
 <script>
 	import BackArrow from '$lib/components/BackArrow.svelte';
 	import TvFuuBarCard from '$lib/components/comedy/TVFuuBarCard.svelte';
-	import TvOurFlagMeansDeathCard from '$lib/components/comedy/TVOurFlagMeansDeathCard.svelte';
 	import FUUBar from '$lib/images/comedy/fubar.webp';
-	import OurFlagMeansDeath from '$lib/images/comedy/ourflagmeansdeath.webp';
 </script>
 
 <div>
@@ -11,7 +9,6 @@
 	<div class="foo">
 			<ul class="bar">
 				<TvFuuBarCard src={FUUBar} />
-				<TvOurFlagMeansDeathCard src={OurFlagMeansDeath} />
 			</ul>
 	</div>
 </div>
