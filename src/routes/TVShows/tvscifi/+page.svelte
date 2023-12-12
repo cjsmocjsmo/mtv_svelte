@@ -22,6 +22,8 @@
 	import OrvilleImg from '$lib/images/scifi/orville.avif';
 	import TvHaloCard from '$lib/components/tvscifi/TvHaloCard.svelte';
 	import HaloImg from '$lib/images/scifi/halo.avif';
+	import MonarchLegacyOfMonstersImg from '$lib/images/scifi/monarchlegacyofmonsters.webp';
+	import TvMonarchLegacyOfMonstersCard from '$lib/components/tvscifi/TVMonarchLegacyOfMonstersCard.svelte';
 </script>
 
 <div>
@@ -40,6 +42,7 @@
 			<TvNightSkyCard src={NightSkyImg} />
 			<TvOrvilleCard src={OrvilleImg} />
 			<TvHaloCard src={HaloImg} />
+			<TvMonarchLegacyOfMonstersCard src={MonarchLegacyOfMonstersImg} />
 		</div>
 	</div>
 </div>
