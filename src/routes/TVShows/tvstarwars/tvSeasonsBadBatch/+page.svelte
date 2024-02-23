@@ -5,6 +5,7 @@
 	export let data;
 	let zoo = data.badbatch[0];
 	let zoo1 = data.badbatch[1];
+	let zoo2 = data.badbatch[2];
 </script>
 
 <main>
@@ -28,7 +29,15 @@
 			{/each}
 		</div>
 	</div>
-	<PlayerControls />
+	<div>
+		<h1>Season 3</h1>
+		<div class="seaList">
+			{#each zoo2 as d3}
+				<SeasonButton info={d3} />
+			{/each}
+		</div>
+		<PlayerControls />
+	</div>
 </main>
 
 <style>
